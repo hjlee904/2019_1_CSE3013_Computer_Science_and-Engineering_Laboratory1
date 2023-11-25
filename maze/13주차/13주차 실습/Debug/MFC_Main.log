@@ -1,0 +1,150 @@
+﻿Build started 2019-06-21 오전 2:06:09.
+     1>Project "C:\Users\이현지\Desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\MFC_Main.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GRAPHICS_BUFFERED /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/MFC_Main.pch" /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GRAPHICS_BUFFERED /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ExternDoc.cpp ExternView.cpp MainFrm.cpp MFC_Main.cpp MFC_MainDoc.cpp MFC_MainView.cpp Graphics\Clipping.cpp Graphics\DrawFunc.cpp Ui\MsgView.cpp Ui\RubberBand.cpp Ui\Scroll.cpp Ui\Zoom.cpp "User Code\usercode.cpp" Util\Math.cpp Util\StringTokenizer.cpp Example\Example.cpp
+         Example.cpp
+         StringTokenizer.cpp
+         Math.cpp
+         usercode.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(85): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(87): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(96): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(112): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(121): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(134): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(135): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(138): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(154): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(164): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(72): warning C4101: 'j' : unreferenced local variable
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(188): warning C4101: 'j' : unreferenced local variable
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(265): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(267): warning C4101: 'y' : unreferenced local variable
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(267): warning C4101: 'x' : unreferenced local variable
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(263): warning C4101: 'ptr' : unreferenced local variable
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\user code\usercode.cpp(264): warning C4101: 'V' : unreferenced local variable
+         Zoom.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Scroll.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\ui\scroll.cpp(75): warning C4244: '=' : conversion from 'double' to 'UINT', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\ui\scroll.cpp(76): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\ui\scroll.cpp(79): warning C4244: '=' : conversion from 'double' to 'UINT', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\ui\scroll.cpp(80): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\ui\scroll.cpp(87): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\ui\scroll.cpp(119): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\ui\scroll.cpp(134): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\ui\scroll.cpp(165): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         RubberBand.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         MsgView.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         DrawFunc.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(199): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(200): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(266): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(267): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(288): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(289): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(314): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(315): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(339): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(340): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(391): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(392): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(446): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(447): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(471): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(472): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(496): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(519): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(520): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(564): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(603): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(628): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(629): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(665): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(702): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(734): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(739): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(763): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(764): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(787): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(788): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(816): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(817): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(844): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(845): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(877): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(907): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(942): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(972): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\drawfunc.cpp(973): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Clipping.cpp
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\clipping.cpp(179): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\clipping.cpp(183): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\clipping.cpp(187): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\이현지\desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\graphics\clipping.cpp(191): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+         MFC_MainView.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         MFC_MainDoc.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         MFC_Main.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         MainFrm.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         ExternView.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         ExternDoc.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0412" /nologo /fo".\Debug\MFC_Main.res" MFC_Main.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/MFC_Main.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug/MFC_Main.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\MFC_Main.lib" /MACHINE:X86 /SAFESEH .\Debug\MFC_Main.res
+         .\Debug/ExternDoc.obj
+         .\Debug/ExternView.obj
+         .\Debug/MainFrm.obj
+         .\Debug/MFC_Main.obj
+         .\Debug/MFC_MainDoc.obj
+         .\Debug/MFC_MainView.obj
+         .\Debug/StdAfx.obj
+         .\Debug/Clipping.obj
+         .\Debug/DrawFunc.obj
+         .\Debug/MsgView.obj
+         .\Debug/RubberBand.obj
+         .\Debug/Scroll.obj
+         .\Debug/Zoom.obj
+         .\Debug/usercode.obj
+         .\Debug/Math.obj
+         .\Debug/StringTokenizer.obj
+         .\Debug/Example.obj
+     1>ExternDoc.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         MFC_Main.vcxproj -> C:\Users\이현지\Desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\.\Debug\MFC_Main.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug/MFC_Main.bsc" .\Debug\ExternDoc.sbr .\Debug\ExternView.sbr .\Debug\MainFrm.sbr .\Debug\MFC_Main.sbr .\Debug\MFC_MainDoc.sbr .\Debug\MFC_MainView.sbr .\Debug\StdAfx.sbr .\Debug\Clipping.sbr .\Debug\DrawFunc.sbr .\Debug\MsgView.sbr .\Debug\RubberBand.sbr .\Debug\Scroll.sbr .\Debug\Zoom.sbr .\Debug\usercode.sbr .\Debug\Math.sbr .\Debug\StringTokenizer.sbr .\Debug\Example.sbr
+     1>Done Building Project "C:\Users\이현지\Desktop\2019-1\컴퓨터공학설계및실험1\13주차\13주차 실습\MFC_Main.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:17.02
